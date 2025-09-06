@@ -18,7 +18,7 @@
     }
 
     .card {
-      background: white;
+      background: rgba(255, 255, 255, 0.95);
       padding: 30px;
       border-radius: 20px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -84,6 +84,12 @@
       0% { transform: translateY(0); opacity: 1; }
       100% { transform: translateY(-120vh); opacity: 0; }
     }
+
+    img {
+      max-width: 100%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
   </style>
 </head>
 <body>
@@ -95,11 +101,13 @@
 
   <!-- Card -->
   <div class="card">
-    <h1>Happy Birthday ❤️ [ MY Shonaa,duska, darling, pagal ]</h1>
-    <h2>I never ever ever ever gonna leave you meri jaan or hn a biggggg sorryy syd gali sune k kaam hi kiye the but isse ye
-      to pata chal gaya n ki tumko dil s biwi mante hai kuki biwi nhi mante to tumhra gali ko ignore kr dete n koi v apni biwi s todi sunna chaega shona 
-      isily syd hum toda gussa ho gy the i am sorry
-    </h2>
+    <img src="her-photo.jpg" alt="Her Photo">
+    <h1>Happy Birthday ❤️ My Shonna</h1>
+    <h2>I never ever ever ever gonna leave you hn kvi kvi ladai ho jata hai but its okay n 
+    relationships mai ladai nhi hoga to kisme hoga hum to bas yahi chate hai muje respect do 
+    ek wife jaise husband ko deti hai kuki sach m hum tumko apna wife mante or hn husband jo 
+    respect apni wife ko deta hai hum dete hai n or ager koi kaami pad rha hai to bol dena shona
+    i am always for you n babuuuuuu... i am sryyyy baby   happy birthday to my golden charm ....</h2>
     <p>My love, you make my world brighter every day.  
     On your special day, I just want to remind you how much you mean to me. 🎂💫</p>
     <button onclick="showMessage()">Click for Surprise 🎁</button>
@@ -107,6 +115,12 @@
       You are my today, and all of my tomorrows. I love you forever ❤️
     </p>
   </div>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="birthday-song.mp3" type="audio/mpeg">
+    Your browser doesn’t support audio.
+  </audio>
 
   <script>
     function showMessage() {
